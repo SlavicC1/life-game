@@ -16,7 +16,7 @@
 {
     width: 100%;
     background: #555;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .b-header__title
@@ -35,7 +35,7 @@
 .b-control-zone
 {
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     background: #555;
     border-bottom: 10px solid #000;
     display: flex;
@@ -44,28 +44,28 @@
 
 .b-control-zone__button
 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50px; 
-    margin: 0 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px; 
+    margin: 0 30px;
     background: #000;
     border: 5px solid #333;
 }
 
 .b-control-zone__button_reset
 {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     background: #550000;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 5px solid #990000;
     margin: auto;
 }
 
 .b-control-zone__button_pause
 {
-    width: 30px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
     margin: auto;
 }
@@ -74,9 +74,9 @@
     position: absolute;
     content: '';
     background-color: #bb0000;
-    height: 80px;
-    width: 30px;
-    transform: translate(-45px,0);
+    height: 40px;
+    width: 20px;
+    transform: translate(-35px,0);
     border-radius: 10px;
     border: 5px solid #990000;
 }
@@ -85,8 +85,8 @@
     position: absolute;
     content: '';
     background-color: #bb0000;
-    height: 80px;
-    width: 30px;
+    height: 40px;
+    width: 20px;
     transform: translate(5px,0);
     border-radius: 10px;
     border: 5px solid #990000;
@@ -98,10 +98,10 @@
     position: relative;
 	background-color: #009900;
 	text-align: left;
-	width:  50px;
-	height: 50px;
+	width:  25px;
+	height: 25px;
 	border-top-right-radius: 30%;
-    transform: rotate(30deg) skewX(-30deg) scale(1,.866) translate(7px,-6px);
+    transform: rotate(30deg) skewX(-30deg) scale(1,.866) translate(3px,-3px);
     margin: auto;
 
 }
@@ -110,8 +110,8 @@
     content: '';
 	position: absolute;
     background-color: inherit;
-    width:  50px;
-	height: 50px;
+    width:  25px;
+	height: 25px;
     border-top-right-radius: 30%;
     transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
 }
@@ -120,8 +120,8 @@
     content: '';
 	position: absolute;
     background-color: inherit;
-    width:  50px;
-	height: 50px;
+    width:  25px;
+	height: 25px;
     border-top-right-radius: 30%;
     transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 }
@@ -134,7 +134,7 @@
 .b-footer
 {
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     background: #555;
 }
 
