@@ -126,8 +126,19 @@ function Stop()
 
 function PlayPause()
 {
-    gameState++;
-    gameState%=2;
+    var play = document.getElementById("play");
+    if(gameState == 0)
+    {
+        gameState = 1;
+        play.classList.add("b-control-zone__button_pause");
+        play.classList.remove("b-control-zone__button_play");
+    }   
+    else
+    {
+        gameState = 0;
+        play.classList.add("b-control-zone__button_play");
+        play.classList.remove("b-control-zone__button_pause");
+    } 
 }
 
 function SetCell()
