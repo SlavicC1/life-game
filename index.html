@@ -12,14 +12,14 @@
         <h1 class="b-header__title">life game</h1>
     </header>
     <main class="b-game-zone" id="game-zone">
-        <canvas class="b-cell-grid" id="game" onclick="Update();">
+        <canvas class="b-cell-grid" id="game" onclick="SetCell();">
             Oh, on! It it don't work!
         </canvas>
         <div class="b-control-zone">
-            <button type="button" class="b-control-zone__button">
+            <button type="button" class="b-control-zone__button" onclick="Stop();">
                 <div class="b-control-zone__button_reset"></div>
             </button>
-            <button type="button" class="b-control-zone__button">
+            <button type="button" class="b-control-zone__button" onclick="PlayPause();">
                 <div class="b-control-zone__button_play"></div>
             </button>
         </div>
