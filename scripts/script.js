@@ -1,3 +1,8 @@
+
+//Game.Initialization();
+//var timer =  setInterval(Game.Update(), 100);
+
+/*
 var img = document.getElementById("game");
 var context = img.getContext("2d");
 
@@ -179,4 +184,4 @@ var timer =  setInterval(function Update()
         GameStep();
     }
     Draw(size, count);
-}, 300);
+}, 300);*/

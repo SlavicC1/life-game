@@ -12,14 +12,14 @@
         <h1 class="b-header__title">life game</h1>
     </header>
     <main class="b-game-zone" id="game-zone">
-        <canvas class="b-cell-grid" id="game" onclick="SetCell();">
-            Oh, on! It it don't work!
+        <canvas class="b-cell-grid" id="game" onclick="Game.SetCell();">
+            Oh, no! It is don't work!
         </canvas>
         <div class="b-control-zone">
-            <button type="button" class="b-control-zone__button" onclick="Stop();">
+            <button type="button" class="b-control-zone__button" onclick="Game.Stop();">
                 <div class="b-control-zone__button_reset"></div>
             </button>
-            <button type="button" class="b-control-zone__button" onclick="PlayPause();">
+            <button type="button" class="b-control-zone__button" onclick="Game.PlayPause();">
                 <div class="b-control-zone__button_play" id="play"></div>
             </button>
         </div>
@@ -27,6 +27,7 @@
     <footer class="b-footer">
         <a href="" class="b-footer__link">about</a>
     </footer>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/game.js"></script>
+    <!--script src="scripts/script.js"></script-->
 </body>
 </html>
